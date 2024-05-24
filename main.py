@@ -18,7 +18,10 @@ from utils import (
     getTotalUrls,
     filter_CCTV_key,
     get_zubao_source_ip,
-    find_matching_values, kaisu_upload, getTotalUrlsFromInfoList
+    find_matching_values,
+    kaisu_upload,
+    getTotalUrlsFromInfoList,
+    getChannelUrlsTxt
 )
 import logging
 import os
@@ -61,6 +64,8 @@ post_headers = {
     'Content-Type': 'application/x-www-form-urlencoded',
     'User-Agent': 'Mozilla/5.0 (Linux; Android 8.0.0; SM-G955U Build/R16NW) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Mobile Safari/537.36'
 }
+
+channel_result_list = []
 
 
 def get_crawl_result():
@@ -194,7 +199,7 @@ class UpdateSource:
         self.search_keyword_list = search_keyword_list
         self.lock = threading.Lock()
 
-    async def visitPage(self, channelItems):
+    async def visitPage(self, channelItems, index):
         total_channels = sum(len(channelObj) for _, channelObj in channelItems.items())
         pbar = tqdm(total=total_channels)
 
@@ -255,7 +260,7 @@ class UpdateSource:
                 finally:
                     pbar.update()
             with self.lock:
-                updateChannelUrlsTxt(cate, channelUrls)
+                channel_result_list.insert(index, getChannelUrlsTxt(cate, channelUrls))
             # await asyncio.sleep(1)
         pbar.close()
 
@@ -263,8 +268,10 @@ class UpdateSource:
         channels = getChannelItems()
         with concurrent.futures.ThreadPoolExecutor() as executor:
             futures = []
+            index = 0
             for key, channelObj in channels.items():
-                futures.append(executor.submit(asyncio.run, self.visitPage({key: channelObj})))
+                futures.append(executor.submit(asyncio.run, self.visitPage({key: channelObj}, index)))
+                index += 1
             concurrent.futures.wait(futures)
 
         for handler in logger.handlers:
@@ -274,8 +281,12 @@ class UpdateSource:
         user_log_file = (
             "user_result.log" if os.path.exists("user_config.py") else "result.log"
         )
-        updateFile(user_final_file, "result_new.txt")
+        # updateFile(user_final_file, "result_new.txt")
         updateFile(user_log_file, "result_new.log")
+        with open(user_final_file, "w", encoding="utf-8") as f:
+            f.write(
+                "\n".join(channel_result_list) + "\n"
+            )  # 写入文件，并换行
         print(f"Update completed! Please check the {user_final_file} file!")
 
         ftp = None
@@ -286,15 +297,15 @@ class UpdateSource:
             ftp_port = ftp_port if ftp_port else os.getenv('ftp_port')
             ftp_user = getattr(config, "ftp_user", None)
             ftp_user = ftp_user if ftp_user else os.getenv('ftp_user')
-            ftp_pass = getattr(config, "ftp_pass", None)
-            ftp_pass = ftp_pass if ftp_pass else os.getenv('ftp_pass')
+            ftp_passwd = getattr(config, "ftp_passwd", None)
+            ftp_passwd = ftp_passwd if ftp_passwd else os.getenv('ftp_passwd')
             ftp_remote_file = getattr(config, "ftp_remote_file", None)
             ftp_remote_file = ftp_remote_file if ftp_remote_file else os.getenv('ftp_remote_file')
 
-            if ftp_host and ftp_port and ftp_user and ftp_pass and ftp_remote_file:
+            if ftp_host and ftp_port and ftp_user and ftp_passwd and ftp_remote_file:
                 ftp = FTP()
                 ftp.connect(ftp_host, int(ftp_port))
-                ftp.login(user=ftp_user, passwd=ftp_pass)
+                ftp.login(user=ftp_user, passwd=ftp_passwd)
                 with open(user_final_file, 'rb') as file:
                     up_res = ftp.storbinary(f'STOR {ftp_remote_file}', file)
                     if up_res.startswith('226 Transfer complete'):
