@@ -312,8 +312,8 @@ Smart知识台,http://myzy.eu.org/proxy.php?id=litv-longturn19
 台湾戏剧台,http://myzy.eu.org/proxy.php?id=litv-longturn22
 
 咪咕直播,#genre#
-咪咕直播 52,http://111
-咪咕直播 53,http://222
-咪咕直播 54,http://333
-咪咕直播 55,http://444
-咪咕直播 56,http://555
+咪咕直播52,http://111
+咪咕直播53,http://222
+咪咕直播54,http://333
+咪咕直播55,http://444
+咪咕直播56,http://555
