@@ -317,3 +317,6 @@ Smart知识台,http://myzy.eu.org/proxy.php?id=litv-longturn19
 咪咕直播54,http://333
 咪咕直播55,http://444
 咪咕直播56,http://555
+咪咕直播1,http://666
+咪咕直播2,http://777
+咪咕直播3,http://888
