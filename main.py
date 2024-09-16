@@ -1,10 +1,8 @@
 from ftplib import FTP
 import requests
-
-try:
-    import user_config as config
-except ImportError:
-    import config
+import shutil
+from dynamic_config import DynamicConfig
+config = DynamicConfig()
 import asyncio
 from bs4 import BeautifulSoup
 from utils import (
@@ -69,6 +67,7 @@ channel_result_dict = {}
 
 
 def get_crawl_result():
+    config.reload()
     crawl_result_dict = {}
     if config.crawl_type in ["2", "3"]:
         for conf_url in config.crawl_urls:
@@ -101,6 +100,7 @@ def get_crawl_result():
 
 
 def search_hotel_ip():
+    config.reload()
     subscribe_dict = {}
     kw_zbip_dict = {}
     search_keyword_list = []
@@ -226,28 +226,34 @@ class UpdateSource:
                 )
 
                 infoList = []
-                for search_keyword in self.search_keyword_list:
-                    sub_ips = find_matching_values(self.subscribe_dict, f"{search_keyword}|{filter_CCTV_key(name)}")
-                    # sub_ips = subscribe_dict.get(f"{search_keyword}|{filter_CCTV_key(name)}", None)
-                    if not sub_ips:
-                        continue
-                    kw_zbip_list = self.kw_zbip_dict.get(search_keyword, None)
-                    if not kw_zbip_list:
-                        continue
-                    for zb_ip in kw_zbip_list:
-                        for sub_ip in sub_ips:
-                            if not sub_ip.startswith("rtp://"):
-                                continue
-                            rtp_url = sub_ip.replace("rtp:/", f"http://{zb_ip}/rtp")
-                            if not checkByURLKeywordsBlacklist(rtp_url):
-                                continue
-                            if "#" in rtp_url:
-                                urls = rtp_url.split("#")
-                                infoList.append([urls[0], None, None])
-                                infoList.append([urls[1], None, None])
-                            else:
-                                infoList.append([rtp_url, None, None])
-
+                if config.crawl_type in ["1", "3"]:
+                    for search_keyword in self.search_keyword_list:
+                        sub_ips = find_matching_values(self.subscribe_dict, f"{search_keyword}|{filter_CCTV_key(name)}")
+                        # sub_ips = subscribe_dict.get(f"{search_keyword}|{filter_CCTV_key(name)}", None)
+                        if not sub_ips:
+                            continue
+                        kw_zbip_list = self.kw_zbip_dict.get(search_keyword, None)
+                        if not kw_zbip_list:
+                            continue
+                        for zb_ip in kw_zbip_list:
+                            for sub_ip in sub_ips:
+                                if not sub_ip.startswith("rtp://"):
+                                    continue
+                                rtp_url = sub_ip.replace("rtp:/", f"http://{zb_ip}/rtp")
+                                if not checkByURLKeywordsBlacklist(rtp_url):
+                                    continue
+                                if "#" in rtp_url:
+                                    urls = rtp_url.split("#")
+                                    infoList.append([urls[0], None, None])
+                                    infoList.append([urls[1], None, None])
+                                else:
+                                    infoList.append([rtp_url, None, None])
+                if config.crawl_type in ["2", "3"]:
+                    key_name = filter_CCTV_key(name)
+                    tv_urls = self.crawl_result_dict.get(key_name, None)
+                    if tv_urls is not None:
+                        for tv_url in tv_urls:
+                            infoList.append([tv_url, None, None])
                 try:
                     print(f"[{name}]有{len(infoList)}个直播源进行检测...")
                     channelUrls[name] = getTotalUrlsFromInfoList(infoList)
@@ -261,17 +267,6 @@ class UpdateSource:
                                 logger.info(
                                     f"Name: {name}, URL: {url}, Date: {date}, Resolution: {resolution}, Response Time: {response_time}fps"
                                 )
-                    if len(channelUrls.get(name, [])) < config.zb_urls_limit:
-                        if config.crawl_type in ["2", "3"]:
-                            key_name = filter_CCTV_key(name)
-                            tv_urls = self.crawl_result_dict.get(key_name, None)
-                            if tv_urls is not None:
-                                for tv_url in tv_urls:
-                                    if len(channelUrls.get(name, [])) >= config.zb_urls_limit:
-                                        break
-                                    if not tv_url:
-                                        continue
-                                    channelUrls[name].append(tv_url)
                     if len(channelUrls.get(name, [])) < config.zb_urls_limit:
                         previous_result_channels = previous_result_dict.get(name, [])
                         if previous_result_channels:
@@ -290,6 +285,7 @@ class UpdateSource:
         pbar.close()
 
     def main(self):
+        config.reload()
         channels = getChannelItems()
         # with concurrent.futures.ThreadPoolExecutor() as executor:
         #     futures = []
@@ -315,6 +311,8 @@ class UpdateSource:
             f.write(
                 "\n".join(channel_result_list) + "\n"
             )  # 写入文件，并换行
+        if os.path.exists('output'):
+            shutil.copy(user_final_file, 'output')
         print(f"Update completed! Please check the {user_final_file} file!")
 
         ftp = None
