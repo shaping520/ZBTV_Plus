@@ -1,6 +1,6 @@
 source_file = "user_demo.txt"
 final_file = "user_result.txt"
-zb_urls_limit = 10
+zb_urls_limit = 20
 response_time_weight = 0.5
 resolution_weight = 0.5
 # 是否打开测速
