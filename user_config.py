@@ -7,7 +7,7 @@ resolution_weight = 0.5
 open_sort = True
 
 # 最大协程数
-max_concurrent_tasks = 10
+max_concurrent_tasks = 20
 
 # 是否找不到源时保留demo的源
 is_use_demo_if_none = False
@@ -36,6 +36,7 @@ crawl_type = "3"
 # 收集其他大佬url中的直播源
 crawl_urls = [
     "https://raw.githubusercontent.com/PizazzGY/TVBox/main/live.txt",
+    "https://raw.githubusercontent.com/kimwang1978/collect-tv-txt/main/merged_output.txt"
     # "https://d.kstore.space/download/6851/zby.txt"
 ]
 # ipv6源检测有效性的代理地址，用于不支持ipv6网络的主机，若网络支持ipv6，这里填空""
