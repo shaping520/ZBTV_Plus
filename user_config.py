@@ -5,6 +5,10 @@ response_time_weight = 0.5
 resolution_weight = 0.5
 # 是否打开测速
 open_sort = True
+
+# 最大协程数
+max_concurrent_tasks = 10
+
 # 是否找不到源时保留demo的源
 is_use_demo_if_none = False
 # 1: 显示默认值，线路1 线路2，2：显示视频分辨率，如:1080x720
