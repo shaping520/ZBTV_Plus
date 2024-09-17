@@ -1,2 +1,5 @@
-Name: 山西卫视, URL: http://80ec27bff7f9ae80b961481da488e302.livehwc3.cn/liveflash.sxrtv.com/live/sxwshd.m3u8?sub_m3u8=true&edge_slice=true&user_session_id=d04ce01474da4193c8863ea281ec4759$1280x720, Date: None, Resolution: 1280x720, Response Time: 225fps
-Name: 云南卫视, URL: http://58.57.21.166:9901/tsfile/live/0119_1.m3u8$720x576, Date: None, Resolution: 720x576, Response Time: 250fps
+Name: 宁夏卫视, URL: http://58.57.21.166:9901/tsfile/live/0112_1.m3u8$720x576, Date: None, Resolution: 720x576, Response Time: 146.60250000000002fps
+Name: 广西卫视, URL: http://58.57.21.166:9901/tsfile/live/0113_1.m3u8$720x576, Date: None, Resolution: 720x576, Response Time: 169.2175fps
+Name: 山西卫视, URL: http://80ec27bff7f9ae80b961481da488e302.livehwc3.cn/liveflash.sxrtv.com/live/sxwshd.m3u8?sub_m3u8=true&edge_slice=true&user_session_id=d04ce01474da4193c8863ea281ec4759$1280x720, Date: None, Resolution: 1280x720, Response Time: 151.2474fps
+Name: 山西卫视, URL: http://58.57.21.166:9901/tsfile/live/0118_1.m3u8$720x576, Date: None, Resolution: 720x576, Response Time: 155.01875fps
+Name: 甘肃卫视, URL: http://58.57.21.166:9901/tsfile/live/0141_1.m3u8$720x576, Date: None, Resolution: 720x576, Response Time: 156.082fps
