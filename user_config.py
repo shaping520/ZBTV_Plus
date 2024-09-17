@@ -36,8 +36,8 @@ search_ignore_key = ["高清", "4K"]
 crawl_type = "2"
 # 收集其他大佬url中的直播源
 crawl_urls = [
-    # "https://raw.githubusercontent.com/PizazzGY/TVBox/main/live.txt",
-    "https://raw.githubusercontent.com/kimwang1978/collect-tv-txt/main/merged_output.txt"
+    "https://raw.githubusercontent.com/PizazzGY/TVBox/main/live.txt",
+    # "https://raw.githubusercontent.com/kimwang1978/collect-tv-txt/main/merged_output.txt"
     # "https://d.kstore.space/download/6851/zby.txt"
 ]
 # ipv6源检测有效性的代理地址，用于不支持ipv6网络的主机，若网络支持ipv6，这里填空""
