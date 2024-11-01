@@ -1,2 +1,3 @@
-Name: 北京卫视, URL: http://61.138.128.226:19901/tsfile/live/0122_1.m3u8$1920x1080, Date: None, Resolution: 1920x1080, Response Time: 125.63461538461539fps
-Name: 兵团卫视, URL: http://mobilelive-timeshift.ysp.cctv.cn/timeshift/ysp/2022606701/timeshift.m3u8?delay=0&cdn=5202$1920x1080, Date: None, Resolution: 1920x1080, Response Time: 201.34875fps
+Name: 湖南卫视, URL: http://221.0.78.198:1681/hls/10233/index.m3u8$1920x1080, Date: None, Resolution: 1920x1080, Response Time: 184.31538461538463fps
+Name: 青海卫视, URL: http://stream.qhbtv.com/qhws/sd/live.m3u8$1280x720, Date: None, Resolution: 1280x720, Response Time: 245.8875fps
+Name: 兵团卫视, URL: http://mobilelive-timeshift.ysp.cctv.cn/timeshift/ysp/2022606701/timeshift.m3u8?delay=0&cdn=5202$1920x1080, Date: None, Resolution: 1920x1080, Response Time: 203.52555555555554fps
