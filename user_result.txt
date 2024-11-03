@@ -1244,6 +1244,8 @@ SiTV金色学堂,http://1.196.154.235:2000/rtp/239.16.10.244:2000$1920x1080
 
 央视频道,#genre#
 CCTV1,http://php.jdshipin.com:8880/TVOD/gsyd.php?id=9900000501
+CCTV1,http://kxrj.site:998/123/mg.php?id=cctv1
+CCTV1,http://p.ytelc.com/169l/0/aikan.php?id=cctv1
 CCTV1,http://116.128.242.83:9901/tsfile/live/0001_1.m3u8?key=txiptv&playlive=1&authid=0
 CCTV1,http://113.57.20.158:9901/tsfile/live/1020_1.m3u8?key=txiptv&playlive=1&authid=0
 CCTV1,http://124.128.73.58:9901/tsfile/live/0001_1.m3u8?key=txiptv&playlive=1&authid=0
@@ -1261,9 +1263,9 @@ CCTV1,http://113.109.251.4:5995/rtp/239.20.0.192:2182
 CCTV1,http://113.109.251.4:5995/rtp/239.20.0.104:2006
 CCTV1,http://113.109.251.4:5995/rtp/239.20.0.96:3016
 CCTV1,http://113.89.245.163:2175/rtp/239.20.0.192:2182
-CCTV1,http://113.89.245.163:2175/rtp/239.20.0.104:2006
-CCTV1,http://113.89.245.163:2175/rtp/239.20.0.96:3016
 CCTV2,http://php.jdshipin.com:8880/TVOD/gsyd.php?id=9900000502
+CCTV2,http://kxrj.site:998/123/mg.php?id=cctv2
+CCTV2,http://p.ytelc.com/169l/0/aikan.php?id=cctv2
 CCTV2,http://58.57.21.166:9901/tsfile/live/0002_1.m3u8?key=txiptv&playlive=1&authid=0
 CCTV2,http://119.163.199.98:9901/tsfile/live/0002_1.m3u8?key=txiptv&playlive=1&authid=0
 CCTV2,http://124.128.73.58:9901/tsfile/live/0002_1.m3u8?key=txiptv&playlive=1&authid=0
@@ -1281,9 +1283,9 @@ CCTV2,http://113.109.251.4:5995/rtp/239.20.0.197:2192
 CCTV2,http://113.89.245.163:2175/rtp/239.20.0.176:2150
 CCTV2,http://113.89.245.163:2175/rtp/239.20.0.197:2192
 CCTV2,http://116.28.124.202:3809/rtp/239.20.0.176:2150
-CCTV2,http://116.28.124.202:3809/rtp/239.20.0.197:2192
-CCTV2,http://183.11.239.36:9447/rtp/239.20.0.176:2150
 CCTV3,http://php.jdshipin.com:8880/TVOD/gsyd.php?id=9900000003
+CCTV3,http://kxrj.site:998/123/mg.php?id=cctv3
+CCTV3,http://p.ytelc.com/169l/0/aikan.php?id=cctv3
 CCTV3,http://202.100.46.58:9901/tsfile/live/1002_1.m3u8?key=txiptv&playlive=1&authid=0
 CCTV3,http://113.57.20.158:9901/tsfile/live/1022_1.m3u8?key=txiptv&playlive=1&authid=0
 CCTV3,http://www.17888.fun:9281/rtp/239.45.1.68:5140
@@ -1301,8 +1303,7 @@ CCTV3,http://113.89.245.163:2175/rtp/239.20.0.28:3292
 CCTV3,http://116.28.124.202:3809/rtp/239.20.0.27:3296
 CCTV3,http://116.28.124.202:3809/rtp/239.20.0.28:3292
 CCTV3,http://183.11.239.36:9447/rtp/239.20.0.27:3296
-CCTV3,http://183.11.239.36:9447/rtp/239.20.0.28:3292
-CCTV3,http://14.117.236.130:8977/rtp/239.77.0.32:5146
+CCTV4,http://kxrj.site:998/123/mg.php?id=cctv4$1920x1080
 CCTV4,http://php.jdshipin.com:8880/TVOD/gsyd.php?id=9900000503
 CCTV4,http://58.57.21.166:9901/tsfile/live/0004_1.m3u8?key=txiptv&playlive=1&authid=0
 CCTV4,http://202.100.46.58:9901/tsfile/live/1003_1.m3u8?key=txiptv&playlive=1&authid=0
@@ -1322,7 +1323,7 @@ CCTV4,http://116.28.124.202:3809/rtp/239.20.0.177:2152
 CCTV4,http://116.28.124.202:3809/rtp/239.20.0.16:3340
 CCTV4,http://183.11.239.36:9447/rtp/239.20.0.177:2152
 CCTV4,http://183.11.239.36:9447/rtp/239.20.0.16:3340
-CCTV4,http://14.117.236.130:8977/rtp/239.77.0.33:5146
+CCTV5,http://kxrj.site:998/123/mg.php?id=cctv5$1920x1080
 CCTV5,http://php.jdshipin.com:8880/TVOD/gsyd.php?id=9900000005
 CCTV5,http://www.17888.fun:9281/rtp/239.45.1.69:5140
 CCTV5,http://218.78.182.82:2840/rtp/239.45.1.69:5140
@@ -1342,7 +1343,6 @@ CCTV5,http://183.11.239.36:9447/rtp/239.20.0.26:3300
 CCTV5,http://183.11.239.36:9447/rtp/239.20.0.30:3284
 CCTV5,http://14.117.236.130:8977/rtp/239.77.0.34:5146
 CCTV5,http://14.117.236.130:8977/rtp/239.77.0.170:5146
-CCTV5,http://14.117.236.130:8977/rtp/239.77.0.177:5146
 CCTV5+,http://gmxw.7766.org:9161/rtp/239.20.0.203:2204
 CCTV5+,http://183.11.239.36:6567/rtp/239.20.0.203:2204
 CCTV5+,http://113.109.251.4:5995/rtp/239.20.0.203:2204
@@ -1363,6 +1363,7 @@ CCTV5+,http://111.193.239.253:979/rtp/239.3.1.130:8004
 CCTV5+,http://123.113.237.160:5530/rtp/239.3.1.130:8004
 CCTV5+,http://isus.cc:1231/rtp/239.3.1.130:8004
 CCTV5+,http://114.254.80.240:1764/rtp/239.3.1.130:8004
+CCTV6,http://kxrj.site:998/123/mg.php?id=cctv6$1920x1080
 CCTV6,http://php.jdshipin.com:8880/TVOD/gsyd.php?id=9900000006
 CCTV6,http://113.57.20.158:9901/tsfile/live/1025_1.m3u8?key=txiptv&playlive=1&authid=0
 CCTV6,http://www.17888.fun:9281/rtp/239.45.1.70:5140
@@ -1382,7 +1383,7 @@ CCTV6,http://116.28.124.202:3809/rtp/239.20.0.29:3288
 CCTV6,http://183.11.239.36:9447/rtp/239.20.0.25:3304
 CCTV6,http://183.11.239.36:9447/rtp/239.20.0.29:3288
 CCTV6,http://14.117.236.130:8977/rtp/239.77.0.35:5146
-CCTV6,http://14.117.236.130:8977/rtp/239.77.0.171:5146
+CCTV7,http://kxrj.site:998/123/mg.php?id=cctv7$1920x1080
 CCTV7,http://php.jdshipin.com:8880/TVOD/gsyd.php?id=9900000504
 CCTV7,http://116.128.242.83:9901/tsfile/live/0008_1.m3u8?key=txiptv&playlive=1&authid=0
 CCTV7,http://119.163.199.98:9901/tsfile/live/0007_1.m3u8?key=txiptv&playlive=1&authid=0
@@ -1402,7 +1403,7 @@ CCTV7,http://116.28.124.202:3809/rtp/239.20.0.178:2154
 CCTV7,http://116.28.124.202:3809/rtp/239.20.0.198:2194
 CCTV7,http://183.11.239.36:9447/rtp/239.20.0.178:2154
 CCTV7,http://183.11.239.36:9447/rtp/239.20.0.198:2194
-CCTV7,http://14.117.236.130:8977/rtp/239.77.0.36:5146
+CCTV8,http://kxrj.site:998/123/mg.php?id=cctv8$1920x1080
 CCTV8,http://php.jdshipin.com:8880/TVOD/gsyd.php?id=9900000008
 CCTV8,http://113.57.20.158:9901/tsfile/live/1027_1.m3u8?key=txiptv&playlive=1&authid=0
 CCTV8,http://www.17888.fun:9281/rtp/239.45.1.71:5140
@@ -1422,7 +1423,6 @@ CCTV8,http://116.28.124.202:3809/rtp/239.20.0.31:3280
 CCTV8,http://183.11.239.36:9447/rtp/239.20.0.24:3308
 CCTV8,http://183.11.239.36:9447/rtp/239.20.0.31:3280
 CCTV8,http://14.117.236.130:8977/rtp/239.77.0.37:5146
-CCTV8,http://14.117.236.130:8977/rtp/239.77.0.172:5146
 CCTV9,http://php.jdshipin.com:8880/TVOD/gsyd.php?id=9900000505
 CCTV9,http://119.163.199.98:9901/tsfile/live/0009_1.m3u8?key=txiptv&playlive=1&authid=0
 CCTV9,http://www.17888.fun:9281/rtp/239.45.3.4:5140
@@ -1443,6 +1443,7 @@ CCTV9,http://113.89.245.163:2175/rtp/239.20.0.179:2156
 CCTV9,http://113.89.245.163:2175/rtp/239.20.0.199:2196
 CCTV9,http://116.28.124.202:3809/rtp/239.20.0.179:2156
 CCTV9,http://116.28.124.202:3809/rtp/239.20.0.199:2196
+CCTV10,http://kxrj.site:998/123/mg.php?id=cctv10$1920x1080
 CCTV10,http://php.jdshipin.com:8880/TVOD/gsyd.php?id=9900000506
 CCTV10,http://116.128.242.83:9901/tsfile/live/0011_1.m3u8?key=txiptv&playlive=1&authid=0
 CCTV10,http://58.216.229.130:9901/tsfile/live/0010_1.m3u8?key=txiptv&playlive=1&authid=0
@@ -1462,7 +1463,6 @@ CCTV10,http://116.28.124.202:3809/rtp/239.20.0.180:2158
 CCTV10,http://116.28.124.202:3809/rtp/239.20.0.200:2198
 CCTV10,http://183.11.239.36:9447/rtp/239.20.0.180:2158
 CCTV10,http://183.11.239.36:9447/rtp/239.20.0.200:2198
-CCTV10,http://14.117.236.130:8977/rtp/239.77.0.39:5146
 CCTV11,http://php.jdshipin.com:8880/TVOD/gsyd.php?id=9900000508
 CCTV11,http://113.57.20.158:9901/tsfile/live/1030_1.m3u8?key=txiptv&playlive=1&authid=0
 CCTV11,http://www.17888.fun:9281/rtp/239.45.1.196:5140
@@ -1483,6 +1483,7 @@ CCTV11,http://183.11.239.36:9447/rtp/239.20.0.181:2160
 CCTV11,http://183.11.239.36:9447/rtp/239.21.0.35:3480
 CCTV11,http://14.117.236.130:8977/rtp/239.77.0.40:5146
 CCTV11,http://14.117.236.130:8977/rtp/239.77.1.42:5146
+CCTV12,http://kxrj.site:998/123/mg.php?id=cctv12$1920x1080
 CCTV12,http://php.jdshipin.com:8880/TVOD/gsyd.php?id=9900000509
 CCTV12,http://119.163.199.98:9901/tsfile/live/0012_1.m3u8?key=txiptv&playlive=1&authid=0
 CCTV12,http://113.57.20.158:9901/tsfile/live/1031_1.m3u8?key=txiptv&playlive=1&authid=0
@@ -1502,7 +1503,6 @@ CCTV12,http://116.28.124.202:3809/rtp/239.20.0.182:2162
 CCTV12,http://116.28.124.202:3809/rtp/239.20.0.201:2200
 CCTV12,http://183.11.239.36:9447/rtp/239.20.0.182:2162
 CCTV12,http://183.11.239.36:9447/rtp/239.20.0.201:2200
-CCTV12,http://14.117.236.130:8977/rtp/239.77.0.41:5146
 CCTV13,http://58.57.21.166:9901/tsfile/live/0013_1.m3u8?key=txiptv&playlive=1&authid=0
 CCTV13,http://58.216.229.130:9901/tsfile/live/0013_1.m3u8?key=txiptv&playlive=1&authid=0
 CCTV13,http://116.128.242.83:9901/tsfile/live/0014_1.m3u8?key=txiptv&playlive=1&authid=0
@@ -1523,6 +1523,7 @@ CCTV13,http://14.117.236.130:8977/rtp/239.253.43.196:5146
 CCTV13,http://183.53.109.131:7443/rtp/239.77.0.42:5146
 CCTV13,http://183.53.109.131:7443/rtp/239.77.0.188:5146
 CCTV13,http://183.53.109.131:7443/rtp/239.77.1.26:5146
+CCTV14,http://kxrj.site:998/123/mg.php?id=cctv14$1920x1080
 CCTV14,http://php.jdshipin.com:8880/TVOD/gsyd.php?id=9900000511
 CCTV14,http://119.163.199.98:9901/tsfile/live/0014_1.m3u8?key=txiptv&playlive=1&authid=0
 CCTV14,http://113.57.20.158:9901/tsfile/live/1033_1.m3u8?key=txiptv&playlive=1&authid=0
@@ -1542,7 +1543,7 @@ CCTV14,http://113.89.245.163:2175/rtp/239.20.0.202:2202
 CCTV14,http://116.28.124.202:3809/rtp/239.20.0.184:2166
 CCTV14,http://116.28.124.202:3809/rtp/239.20.0.202:2202
 CCTV14,http://183.11.239.36:9447/rtp/239.20.0.184:2166
-CCTV14,http://183.11.239.36:9447/rtp/239.20.0.202:2202
+CCTV15,http://kxrj.site:998/123/mg.php?id=cctv15$1920x1080
 CCTV15,http://php.jdshipin.com:8880/TVOD/gsyd.php?id=9900000512
 CCTV15,http://119.163.199.98:9901/tsfile/live/0015_1.m3u8?key=txiptv&playlive=1&authid=0
 CCTV15,http://124.128.73.58:9901/tsfile/live/0015_1.m3u8?key=txiptv&playlive=1&authid=0
@@ -1562,7 +1563,6 @@ CCTV15,http://116.28.124.202:3809/rtp/239.20.0.185:2168
 CCTV15,http://116.28.124.202:3809/rtp/239.21.0.36:3484
 CCTV15,http://183.11.239.36:9447/rtp/239.20.0.185:2168
 CCTV15,http://183.11.239.36:9447/rtp/239.21.0.36:3484
-CCTV15,http://14.117.236.130:8977/rtp/239.77.0.44:5146
 CCTV16,http://php.jdshipin.com:8880/TVOD/gsyd.php?id=9900000016
 CCTV16,http://14.117.236.130:8977/rtp/239.77.0.165:5146
 CCTV16,http://14.117.236.130:8977/rtp/239.77.0.208:5146
@@ -1584,6 +1584,8 @@ CCTV16,http://111.193.239.253:979/rtp/239.3.1.184:8001
 CCTV16,http://123.113.237.160:5530/rtp/239.3.1.184:8001
 CCTV16,http://isus.cc:1231/rtp/239.3.1.184:8001
 CCTV17,http://php.jdshipin.com:8880/TVOD/gsyd.php?id=9900000513
+CCTV17,http://kxrj.site:998/123/mg.php?id=cctv17
+CCTV17,http://p.ytelc.com/169l/0/aikan.php?id=cctv17
 CCTV17,http://113.57.20.158:9901/tsfile/live/1047_1.m3u8?key=txiptv&playlive=1&authid=0
 CCTV17,http://www.17888.fun:9281/rtp/239.45.3.52:5140
 CCTV17,http://218.78.182.82:2840/rtp/239.45.3.52:5140
@@ -1601,8 +1603,6 @@ CCTV17,http://116.28.124.202:3809/rtp/239.20.0.8:3372
 CCTV17,http://116.28.124.202:3809/rtp/239.20.0.7:3376
 CCTV17,http://183.11.239.36:9447/rtp/239.20.0.8:3372
 CCTV17,http://183.11.239.36:9447/rtp/239.20.0.7:3376
-CCTV17,http://14.117.236.130:8977/rtp/239.77.0.115:5146
-CCTV17,http://14.117.236.130:8977/rtp/239.77.0.198:5146
 
 卫视频道,#genre#
 浙江卫视,http://124.116.183.146:9901/tsfile/live/0124_1.m3u8?key=txiptv
@@ -2005,7 +2005,8 @@ CCTV17,http://14.117.236.130:8977/rtp/239.77.0.198:5146
 金鹰纪实,http://222.67.66.128:7690/rtp/239.45.1.45:5140
 金鹰纪实,http://218.78.180.226:2812/rtp/239.45.1.45:5140
 金鹰纪实,http://116.231.244.25:4345/rtp/239.45.1.45:5140
-宁夏卫视,http://58.57.21.166:9901/tsfile/live/0112_1.m3u8$720x576
+宁夏卫视,http://61.136.67.238:50085/tsfile/live/0112_1.m3u8?key=txiptv&playlive=1&authid=0
+宁夏卫视,http://58.57.21.166:9901/tsfile/live/0112_1.m3u8
 宁夏卫视,http://139.196.151.191:5979/rtp/239.45.1.213:5140
 宁夏卫视,http://139.196.151.191:5979/rtp/239.45.3.176:5140
 宁夏卫视,http://116.226.38.242:8743/rtp/239.45.1.213:5140
@@ -2024,7 +2025,6 @@ CCTV17,http://14.117.236.130:8977/rtp/239.77.0.198:5146
 宁夏卫视,http://119.134.111.81:4571/rtp/239.20.0.156:2110
 宁夏卫视,http://183.11.239.36:4535/rtp/239.20.0.156:2110
 宁夏卫视,http://119.134.111.81:9071/rtp/239.77.0.73:5146
-宁夏卫视,http://119.134.111.81:9071/rtp/239.77.1.47:5146
 广西卫视,http://58.57.21.166:9901/tsfile/live/0113_1.m3u8
 广西卫视,http://php.jdshipin.com:8880/TVOD/gsyd.php?id=9900000034
 广西卫视,http://61.136.67.238:50085/tsfile/live/0113_1.m3u8?key=txiptv&playlive=1&authid=0
@@ -2185,7 +2185,9 @@ CCTV17,http://14.117.236.130:8977/rtp/239.77.0.198:5146
 甘肃卫视,http://gmxw.7766.org:7139/rtp/239.20.0.159:2116
 甘肃卫视,http://183.11.239.36:3992/rtp/239.20.0.159:2116
 甘肃卫视,http://183.11.239.36:6496/rtp/239.20.0.159:2116
-内蒙古卫视,https://livestream-bt.nmtv.cn/nmtv/2314general.m3u8?txSecret=dc348a27bd36fe1bd63562af5e7269ea&txTime=771EF880$1920x1080
+内蒙古卫视,https://livestream-bt.nmtv.cn/nmtv/2314general.m3u8?txSecret=dc348a27bd36fe1bd63562af5e7269ea&txTime=771EF880
+内蒙古卫视,http://61.136.67.238:50085/tsfile/live/0109_1.m3u8?key=txiptv&playlive=1&authid=0
+内蒙古卫视,http://58.57.21.166:9901/tsfile/live/0109_1.m3u8
 内蒙古卫视,http://www.17888.fun:9281/rtp/239.45.1.238:5140
 内蒙古卫视,http://www.17888.fun:9281/rtp/239.45.3.221:5140
 内蒙古卫视,http://218.78.182.82:2840/rtp/239.45.1.238:5140
@@ -2203,8 +2205,6 @@ CCTV17,http://14.117.236.130:8977/rtp/239.77.0.198:5146
 内蒙古卫视,http://14.117.236.130:8977/rtp/239.77.0.70:5146
 内蒙古卫视,http://14.117.236.130:8977/rtp/239.77.1.55:5146
 内蒙古卫视,http://183.53.109.131:7443/rtp/239.77.0.70:5146
-内蒙古卫视,http://183.53.109.131:7443/rtp/239.77.1.55:5146
-内蒙古卫视,http://114.243.111.238:3409/rtp/239.3.1.43:8176
 河南卫视,http://61.136.67.238:50085/tsfile/live/0016_1.m3u8?key=txiptv&playlive=1&authid=0
 河南卫视,http://php.jdshipin.com:8880/TVOD/gsyd.php?id=9900000027
 河南卫视,http://202.100.46.58:9901/tsfile/live/1032_1.m3u8?key=txiptv&playlive=1&authid=0

@@ -1,3 +1,10 @@
-Name: 宁夏卫视, URL: http://58.57.21.166:9901/tsfile/live/0112_1.m3u8$720x576, Date: None, Resolution: 720x576, Response Time: 177.4742857142857fps
-Name: 内蒙古卫视, URL: https://livestream-bt.nmtv.cn/nmtv/2314general.m3u8?txSecret=dc348a27bd36fe1bd63562af5e7269ea&txTime=771EF880$1920x1080, Date: None, Resolution: 1920x1080, Response Time: 179.09599999999998fps
-Name: 兵团卫视, URL: http://mobilelive-timeshift.ysp.cctv.cn/timeshift/ysp/2022606701/timeshift.m3u8?delay=0&cdn=5202$1920x1080, Date: None, Resolution: 1920x1080, Response Time: 189.28125fps
+Name: CCTV4, URL: http://kxrj.site:998/123/mg.php?id=cctv4$1920x1080, Date: None, Resolution: 1920x1080, Response Time: 182.85583333333332fps
+Name: CCTV5, URL: http://kxrj.site:998/123/mg.php?id=cctv5$1920x1080, Date: None, Resolution: 1920x1080, Response Time: 182.03066666666666fps
+Name: CCTV6, URL: http://kxrj.site:998/123/mg.php?id=cctv6$1920x1080, Date: None, Resolution: 1920x1080, Response Time: 175.50125fps
+Name: CCTV7, URL: http://kxrj.site:998/123/mg.php?id=cctv7$1920x1080, Date: None, Resolution: 1920x1080, Response Time: 175.722fps
+Name: CCTV8, URL: http://kxrj.site:998/123/mg.php?id=cctv8$1920x1080, Date: None, Resolution: 1920x1080, Response Time: 232.4fps
+Name: CCTV10, URL: http://kxrj.site:998/123/mg.php?id=cctv10$1920x1080, Date: None, Resolution: 1920x1080, Response Time: 210.97fps
+Name: CCTV12, URL: http://kxrj.site:998/123/mg.php?id=cctv12$1920x1080, Date: None, Resolution: 1920x1080, Response Time: 182.04fps
+Name: CCTV14, URL: http://kxrj.site:998/123/mg.php?id=cctv14$1920x1080, Date: None, Resolution: 1920x1080, Response Time: 172.33166666666668fps
+Name: CCTV15, URL: http://kxrj.site:998/123/mg.php?id=cctv15$1920x1080, Date: None, Resolution: 1920x1080, Response Time: 175.70363636363635fps
+Name: 兵团卫视, URL: http://mobilelive-timeshift.ysp.cctv.cn/timeshift/ysp/2022606701/timeshift.m3u8?delay=0&cdn=5202$1920x1080, Date: None, Resolution: 1920x1080, Response Time: 196.34555555555556fps
