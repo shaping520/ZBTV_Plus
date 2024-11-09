@@ -1363,8 +1363,8 @@ CCTV5+,http://111.193.239.253:979/rtp/239.3.1.130:8004
 CCTV5+,http://123.113.237.160:5530/rtp/239.3.1.130:8004
 CCTV5+,http://isus.cc:1231/rtp/239.3.1.130:8004
 CCTV5+,http://114.254.80.240:1764/rtp/239.3.1.130:8004
-CCTV6,http://kxrj.site:998/123/mg.php?id=cctv6$1280x720
 CCTV6,http://php.jdshipin.com:8880/TVOD/gsyd.php?id=9900000006
+CCTV6,http://kxrj.site:998/123/mg.php?id=cctv6
 CCTV6,http://p.ytelc.com/169l/0/aikan.php?id=cctv6
 CCTV6,http://113.57.20.158:9901/tsfile/live/1025_1.m3u8?key=txiptv&playlive=1&authid=0
 CCTV6,http://www.17888.fun:9281/rtp/239.45.1.70:5140
@@ -1483,8 +1483,8 @@ CCTV11,http://183.11.239.36:9447/rtp/239.20.0.181:2160
 CCTV11,http://183.11.239.36:9447/rtp/239.21.0.35:3480
 CCTV11,http://14.117.236.130:8977/rtp/239.77.0.40:5146
 CCTV11,http://14.117.236.130:8977/rtp/239.77.1.42:5146
-CCTV12,http://kxrj.site:998/123/mg.php?id=cctv12$1280x720
 CCTV12,http://php.jdshipin.com:8880/TVOD/gsyd.php?id=9900000509
+CCTV12,http://kxrj.site:998/123/mg.php?id=cctv12
 CCTV12,http://p.ytelc.com/169l/0/aikan.php?id=cctv12
 CCTV12,http://119.163.199.98:9901/tsfile/live/0012_1.m3u8?key=txiptv&playlive=1&authid=0
 CCTV12,http://113.57.20.158:9901/tsfile/live/1031_1.m3u8?key=txiptv&playlive=1&authid=0
@@ -1523,8 +1523,8 @@ CCTV13,http://14.117.236.130:8977/rtp/239.253.43.196:5146
 CCTV13,http://183.53.109.131:7443/rtp/239.77.0.42:5146
 CCTV13,http://183.53.109.131:7443/rtp/239.77.0.188:5146
 CCTV13,http://183.53.109.131:7443/rtp/239.77.1.26:5146
-CCTV14,http://kxrj.site:998/123/mg.php?id=cctv14$1280x720
 CCTV14,http://php.jdshipin.com:8880/TVOD/gsyd.php?id=9900000511
+CCTV14,http://kxrj.site:998/123/mg.php?id=cctv14
 CCTV14,http://p.ytelc.com/169l/0/aikan.php?id=cctv14
 CCTV14,http://119.163.199.98:9901/tsfile/live/0014_1.m3u8?key=txiptv&playlive=1&authid=0
 CCTV14,http://113.57.20.158:9901/tsfile/live/1033_1.m3u8?key=txiptv&playlive=1&authid=0
@@ -1785,7 +1785,7 @@ CCTV17,http://183.11.239.36:9447/rtp/239.20.0.7:3376
 湖北卫视,http://14.117.236.130:8977/rtp/239.77.0.95:5146
 湖北卫视,http://14.117.236.130:8977/rtp/239.77.0.128:5146
 湖北卫视,http://14.117.236.130:8977/rtp/239.77.1.44:5146
-安徽卫视,http://124.116.183.146:9901/tsfile/live/0130_1.m3u8?key=txiptv
+安徽卫视,http://124.116.183.146:9901/tsfile/live/0130_1.m3u8?key=txiptv$720x576
 安徽卫视,http://php.jdshipin.com:8880/TVOD/gsyd.php?id=9900000514
 安徽卫视,http://119.163.199.98:9901/tsfile/live/0130_1.m3u8?key=txiptv&playlive=1&authid=0
 安徽卫视,http://116.128.242.83:9901/tsfile/live/0128_1.m3u8?key=txiptv&playlive=1&authid=0
@@ -1885,7 +1885,7 @@ CCTV17,http://183.11.239.36:9447/rtp/239.20.0.7:3376
 天津卫视,http://14.117.236.130:8977/rtp/239.77.0.52:5146
 天津卫视,http://14.117.236.130:8977/rtp/239.77.0.97:5146
 天津卫视,http://14.117.236.130:8977/rtp/239.77.0.131:5146
-四川卫视,http://124.116.183.146:9901/tsfile/live/0123_1.m3u8?key=txiptv
+四川卫视,http://124.116.183.146:9901/tsfile/live/0123_1.m3u8?key=txiptv$720x576
 四川卫视,http://58.57.21.166:9901/tsfile/live/0123_1.m3u8
 四川卫视,http://119.163.199.98:9901/tsfile/live/0123_1.m3u8?key=txiptv&playlive=1&authid=0
 四川卫视,http://116.128.242.83:9901/tsfile/live/1007_1.m3u8?key=txiptv&playlive=1&authid=0
