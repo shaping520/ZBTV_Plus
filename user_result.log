@@ -1,4 +1,2 @@
-Name: 重庆卫视, URL: http://221.0.78.198:1681/hls/10238/index.m3u8$1920x1080, Date: None, Resolution: 1920x1080, Response Time: 163.06073333333333fps
-Name: 宁夏卫视, URL: http://61.136.67.238:50085/tsfile/live/0112_1.m3u8?key=txiptv&playlive=1&authid=0$720x576, Date: None, Resolution: 720x576, Response Time: 162.95266666666666fps
-Name: 内蒙古卫视, URL: http://61.136.67.238:50085/tsfile/live/0109_1.m3u8?key=txiptv&playlive=1&authid=0$720x576, Date: None, Resolution: 720x576, Response Time: 166.11625fps
-Name: 兵团卫视, URL: http://mobilelive-timeshift.ysp.cctv.cn/timeshift/ysp/2022606701/timeshift.m3u8?delay=0&cdn=5202$1920x1080, Date: None, Resolution: 1920x1080, Response Time: 181.32857142857142fps
+Name: 内蒙古卫视, URL: http://61.136.67.238:50085/tsfile/live/0109_1.m3u8?key=txiptv&playlive=1&authid=0$720x576, Date: None, Resolution: 720x576, Response Time: 149.5578095238095fps
+Name: 兵团卫视, URL: http://mobilelive-timeshift.ysp.cctv.cn/timeshift/ysp/2022606701/timeshift.m3u8?delay=0&cdn=5202$1920x1080, Date: None, Resolution: 1920x1080, Response Time: 203.14fps
