@@ -50,8 +50,10 @@ class WebScraper:
     def search(self, query='五星体育'):
         """在输入框中输入查询并点击搜索"""
         for i in range(5):
+            print(f"---{i+1}---")
             input_box = self.driver.find_element(By.ID, 'search')  # 根据页面上的 input 名称修改
             input_box.send_keys(query)
+            print(self.get_page_source())
             if self.driver.current_url != self.url:
                 self.visit_page(self.url)
                 continue
